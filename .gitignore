@@ -1,0 +1,17 @@
+# Built AppImage (distributed via GitHub Releases, not committed)
+# Also matches the linuxdeploy/appimagetool binaries under build/tools/
+# — those are downloaded separately; see README.
+*.AppImage
+
+# linuxdeploy AppDir staging
+build/AppDir/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
