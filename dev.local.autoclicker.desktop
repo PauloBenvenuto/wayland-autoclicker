@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Autoclicker
+Comment=Wayland autoclicker with a live HUD (F8 toggles)
+Exec=autoclicker
+Icon=input-mouse
+Terminal=false
+Categories=Utility;
+StartupWMClass=dev.local.autoclicker

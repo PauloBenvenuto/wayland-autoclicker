@@ -1,0 +1,3 @@
+# Acceso del usuario con sesión activa (uaccess) a /dev/uinput, sin grupo input ni sudo.
+# Prefijo < 73: 73-seat-late.rules convierte el tag uaccess en ACL.
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
